@@ -1,40 +1,76 @@
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* FULL PAGE CENTERING */
+/* Keep existing page class for background */
 .page {
   height: 100%;
-  background-color: #ffd6e8;
-  display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
-}
-
-/* CENTER EVERYTHING INSIDE */
-.home-content {
+  background-color: #ffd6e8; /* light pink like Home */
   display: flex;
   flex-direction: column;
-  align-items: center;     /* horizontal */
-  justify-content: center; /* vertical */
-  text-align: center;
+  align-items: center;
+  justify-content: flex-start; /* top content */
+  padding-bottom: 40px; /* space for bottom button */
 }
 
-.home-content h1 {
-  font-size: 3.8rem;
-  margin-bottom: 0.5rem;
+/* Heading */
+.pictures-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
   color: #b3005e;
 }
 
-.home-content h2 {
-  font-size: 1.6rem;
-  font-weight: normal;
-  margin-bottom: 2.5rem;
-  color: #8a0044;
+/* Grid collage */
+.grid-collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  gap: 20px;
+  width: 90%;
+  max-width: 900px;
+  margin-top: 40px;
+  justify-items: center;
+  align-items: center;
 }
 
+/* Image styling */
+.grid-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.grid-img:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+/* Individual variations: sizes and rotations */
+.img-1  { transform: rotate(-5deg); width: 90%; height: 90%; }
+.img-2  { transform: rotate(3deg);  width: 100%; height: 100%; }
+.img-3  { transform: rotate(-7deg); width: 110%; height: 110%; }
+.img-4  { transform: rotate(4deg);  width: 95%; height: 95%; }
+.img-5  { transform: rotate(-3deg); width: 100%; height: 100%; }
+.img-6  { transform: rotate(6deg);  width: 90%; height: 90%; }
+.img-7  { transform: rotate(-2deg); width: 110%; height: 110%; }
+.img-8  { transform: rotate(5deg);  width: 95%; height: 95%; }
+.img-9  { transform: rotate(-4deg); width: 100%; height: 100%; }
+.img-10 { transform: rotate(7deg);  width: 90%; height: 90%; }
+.img-11 { transform: rotate(-6deg); width: 110%; height: 110%; }
+.img-12 { transform: rotate(3deg);  width: 95%; height: 95%; }
+.img-13 { transform: rotate(-5deg); width: 100%; height: 100%; }
+.img-14 { transform: rotate(4deg);  width: 90%; height: 90%; }
+.img-15 { transform: rotate(-3deg); width: 110%; height: 110%; }
+.img-16 { transform: rotate(6deg);  width: 95%; height: 95%; }
+
+/* Bottom Stats button */
+.bottom-btn {
+  margin-top: 40px;
+}
+
+
+/* Valentine themed buttons */
 .valentine-btn {
   padding: 14px 36px;
   font-size: 1.2rem;
@@ -44,6 +80,7 @@ html, body, #root {
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-weight: bold;
 }
 
 .valentine-btn:hover {
