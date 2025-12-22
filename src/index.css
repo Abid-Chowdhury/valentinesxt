@@ -1,18 +1,52 @@
 html, body, #root {
   height: 100%;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
+/* FULL PAGE CENTERING */
 .page {
   height: 100%;
-  background-color: #ffd6e8; /* light pink */
+  background-color: #ffd6e8;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
 }
 
-.page h1 {
-  font-size: 3.5rem;
+/* CENTER EVERYTHING INSIDE */
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* horizontal */
+  justify-content: center; /* vertical */
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 3.8rem;
+  margin-bottom: 0.5rem;
   color: #b3005e;
+}
+
+.home-content h2 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 2.5rem;
+  color: #8a0044;
+}
+
+.valentine-btn {
+  padding: 14px 36px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #ff5c8a;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.valentine-btn:hover {
+  background-color: #e6005c;
+  transform: scale(1.05);
 }
