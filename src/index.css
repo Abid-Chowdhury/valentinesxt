@@ -17,10 +17,11 @@ body {
 
 /* Soft subtitle text */
 .subtitle {
-  color: #a77a8b;
+  color: #fb7588;
   letter-spacing: 2px;
   font-size: 0.9rem;
   margin-bottom: 12px;
+  font-weight: bold;
 }
 
 /* Name headings */
@@ -31,8 +32,8 @@ body {
 }
 
 .and-symbol {
-  color: #a77a8b;
-  font-size: 1.2rem;
+  color: #fb7588;
+  font-size: 2rem;
   margin: 6px 0;
 }
 
@@ -46,7 +47,7 @@ body {
 /* Heart icon */
 .big-heart {
   font-size: 52px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 /* Valentine button */
