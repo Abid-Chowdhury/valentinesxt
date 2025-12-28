@@ -122,3 +122,37 @@ body {
   color: #6d6d6d;
   margin-top: 4px;
 }
+
+/* Stats Backward Link */
+
+.stats-backward-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: gray;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.stats-backward-link:hover {
+  color: #ff5c8a;
+  font-weight: bold;
+}
+
+/* Stats Forward Link */
+
+.stats-forward-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: gray;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.stats-forward-link:hover {
+  color: #ff5c8a;
+  font-weight: bold;
+}
