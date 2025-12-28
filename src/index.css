@@ -92,6 +92,16 @@ body {
   margin: 0 auto 50px;
 }
 
+/* Stats Subtitle */
+.stats-subtitle {
+  text-align: center;
+  color: #fb7588;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  /* font-weight: bold; */
+}
+
 /* Stat Card */
 .stat-card {
   background: white;

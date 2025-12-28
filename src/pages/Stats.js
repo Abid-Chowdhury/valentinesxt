@@ -2,7 +2,7 @@ export default function Stats() {
   return (
     <div style={{ padding: "40px 20px" }}>
       
-      <div className="subtitle">OUR JOURNEY</div>
+      <div className="stats-subtitle">✨ OUR JOURNEY ✨</div>
 
       <h1 className="page-title">Relationship Stats</h1>
 
