@@ -4,18 +4,27 @@ export default function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="page">
-      <div className="home-content">
-        <h1>Happy Valentine's Day</h1>
-        <h2>- Abid Chowdhury</h2>
+    <div className="center-container">
+      <div className="big-heart">💗</div>
 
-        <button
-          className="valentine-btn"
-          onClick={() => navigate("/pictures")}
-        >
-          Pictures
-        </button>
+      <div className="subtitle">VALENTINE'S DAY 2025</div>
+
+      <div className="main-name">Abid Chowdhury</div>
+
+      <div className="and-symbol">&</div>
+
+      <div className="main-name">Her Name</div>
+
+      <div className="quote">
+        "A love story written in the stars"
       </div>
+
+      <button
+        className="valentine-btn"
+        onClick={() => navigate("/stats")}
+      >
+        Explore Our Story →
+      </button>
     </div>
   );
 }

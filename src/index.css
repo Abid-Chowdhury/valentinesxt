@@ -1,89 +1,113 @@
-/* Keep existing page class for background */
-.page {
-  height: 100%;
-  background-color: #ffd6e8; /* light pink like Home */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffe6ef, #ffeef6);
+  color: #c9184a;
+}
+
+/* Center wrapper for main hero area */
+.center-container {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* top content */
-  padding-bottom: 40px; /* space for bottom button */
-}
-
-/* Heading */
-.pictures-title {
-  width: 100%;
+  justify-content: center;
   text-align: center;
-  margin-top: 20px;
-  font-size: 3rem;
-  color: #b3005e;
 }
 
-/* Grid collage */
-.grid-collage {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 200px;
-  gap: 20px;
-  width: 90%;
-  max-width: 900px;
-  margin-top: 40px;
-  justify-items: center;
-  align-items: center;
+/* Soft subtitle text */
+.subtitle {
+  color: #a77a8b;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
 }
 
-/* Image styling */
-.grid-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
+/* Name headings */
+.main-name {
+  font-size: 3.2rem;
+  margin: 8px 0;
+  color: #c9184a;
 }
 
-.grid-img:hover {
-  transform: scale(1.05);
-  z-index: 10;
+.and-symbol {
+  color: #a77a8b;
+  font-size: 1.2rem;
+  margin: 6px 0;
 }
 
-/* Individual variations: sizes and rotations */
-.img-1  { transform: rotate(-5deg); width: 90%; height: 90%; }
-.img-2  { transform: rotate(3deg);  width: 100%; height: 100%; }
-.img-3  { transform: rotate(-7deg); width: 110%; height: 110%; }
-.img-4  { transform: rotate(4deg);  width: 95%; height: 95%; }
-.img-5  { transform: rotate(-3deg); width: 100%; height: 100%; }
-.img-6  { transform: rotate(6deg);  width: 90%; height: 90%; }
-.img-7  { transform: rotate(-2deg); width: 110%; height: 110%; }
-.img-8  { transform: rotate(5deg);  width: 95%; height: 95%; }
-.img-9  { transform: rotate(-4deg); width: 100%; height: 100%; }
-.img-10 { transform: rotate(7deg);  width: 90%; height: 90%; }
-.img-11 { transform: rotate(-6deg); width: 110%; height: 110%; }
-.img-12 { transform: rotate(3deg);  width: 95%; height: 95%; }
-.img-13 { transform: rotate(-5deg); width: 100%; height: 100%; }
-.img-14 { transform: rotate(4deg);  width: 90%; height: 90%; }
-.img-15 { transform: rotate(-3deg); width: 110%; height: 110%; }
-.img-16 { transform: rotate(6deg);  width: 95%; height: 95%; }
-
-/* Bottom Stats button */
-.bottom-btn {
-  margin-top: 40px;
+/* Love quote */
+.quote {
+  margin-top: 10px;
+  font-style: italic;
+  color: #6d6d6d;
 }
 
+/* Heart icon */
+.big-heart {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
 
-/* Valentine themed buttons */
+/* Valentine button */
 .valentine-btn {
   padding: 14px 36px;
-  font-size: 1.2rem;
-  border: none;
   border-radius: 30px;
-  background-color: #ff5c8a;
+  border: none;
+  background: #ff5c8a;
   color: white;
-  cursor: pointer;
-  transition: all 0.3s ease;
   font-weight: bold;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
 }
 
 .valentine-btn:hover {
-  background-color: #e6005c;
+  background: #e6005c;
   transform: scale(1.05);
+}
+
+/* Shared page title styles */
+.page-title {
+  text-align: center;
+  color: #c9184a;
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: #6d6d6d;
+  margin-bottom: 40px;
+}
+
+/* Stats Card Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto 50px;
+}
+
+/* Stat Card */
+.stat-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Stat number */
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Stat label */
+.stat-label {
+  color: #6d6d6d;
+  margin-top: 4px;
 }
