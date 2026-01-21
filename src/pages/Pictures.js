@@ -4,8 +4,15 @@ export default function Pictures() {
   const navigate = useNavigate();
 
   return (
+    <div style={{ padding: "40px 20px" }}>
+
+    <a href="/Stats" className="stats-backward-link"> &lt; Stats</a>
+    <a href="/About" className="stats-forward-link"> Question &gt; </a>
+
+    <div className="stats-subtitle">✨ OUR JOURNEY ✨</div>
+
+      <h1 className="page-title">Pictures</h1>
     <div className="page pictures-page">
-      <h1 className="pictures-title">Pictures</h1>
 
       <div className="grid-collage">
         {Array.from({ length: 16 }).map((_, index) => (
@@ -20,10 +27,11 @@ export default function Pictures() {
 
       <button
         className="valentine-btn bottom-btn"
-        onClick={() => navigate("/stats")}
+        onClick={() => navigate("/About")}
       >
-        Stats
+        Question
       </button>
+      </div>
     </div>
   );
 }
