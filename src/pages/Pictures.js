@@ -9,21 +9,19 @@ export default function Pictures() {
     <a href="/Stats" className="stats-backward-link"> &lt; Stats</a>
     <a href="/About" className="stats-forward-link"> Question &gt; </a>
 
-    <div className="stats-subtitle">✨ OUR JOURNEY ✨</div>
+    <div className="stats-subtitle">📸 MEMORIES 📸</div>
 
-      <h1 className="page-title">Pictures</h1>
+    <h1 className="page-title">Our Gallery</h1>
     <div className="page pictures-page">
 
-      <div className="grid-collage">
-        {Array.from({ length: 16 }).map((_, index) => (
-          <img
-            key={index}
-            src="https://via.placeholder.com/400"
-            alt={`memory ${index + 1}`}
-            className={`grid-img img-${index + 1}`}
-          />
-        ))}
-      </div>
+    <div className="pictures-collage">
+      <div className="collage-item main">1</div>
+      <div className="collage-item">2</div>
+      <div className="collage-item">3</div>
+      <div className="collage-item">4</div>
+      <div className="collage-item">5</div>
+      <div className="collage-item">6</div>
+    </div>
 
       <button
         className="valentine-btn bottom-btn"
