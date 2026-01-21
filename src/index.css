@@ -52,6 +52,7 @@ body {
 
 /* Valentine button */
 .valentine-btn {
+  display: block;
   padding: 14px 36px;
   border-radius: 30px;
   border: none;
@@ -59,7 +60,7 @@ body {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 24px;
+  margin: 24px auto;
   transition: all 0.3s ease;
   font-size: 1rem;
 }

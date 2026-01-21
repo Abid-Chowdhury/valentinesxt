@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Stats() {
+  const navigate = useNavigate();
+
   return (
-    <div style={{ padding: "40px 20px" }}>
+    <div style={{ padding: "40px 20px"}}>
       
       <a href="/" className="stats-backward-link"> &lt; Home</a>
       <a href="/Pictures" className="stats-forward-link"> Pictures &gt; </a>
@@ -44,6 +48,14 @@ export default function Stats() {
           <div className="stat-label">Trips Taken</div>
         </div>
       </div>
+
+      <button
+        className="valentine-btn bottom-btn"
+        onClick={() => navigate("/Pictures")}
+      >
+        Pictures
+      </button>
+
     </div>
   );
 }
