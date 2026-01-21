@@ -262,3 +262,31 @@ body {
   color: #777;
   max-width: 320px;
 }
+
+
+.success-page {
+  height: 100vh;
+  background: #ffe6ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.success-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.success-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.success-text {
+  font-size: 1.1rem;
+  margin-top: 6px;
+  max-width: 340px;
+}
