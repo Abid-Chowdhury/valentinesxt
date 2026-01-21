@@ -7,7 +7,7 @@ export default function Pictures() {
     <div style={{ padding: "40px 20px" }}>
 
     <a href="/Stats" className="stats-backward-link"> &lt; Stats</a>
-    <a href="/About" className="stats-forward-link"> Question &gt; </a>
+    <a href="/Question" className="stats-forward-link"> Question &gt; </a>
 
     <div className="stats-subtitle">📸 MEMORIES 📸</div>
 
@@ -25,7 +25,7 @@ export default function Pictures() {
 
       <button
         className="valentine-btn bottom-btn"
-        onClick={() => navigate("/About")}
+        onClick={() => navigate("/Question")}
       >
         Question
       </button>

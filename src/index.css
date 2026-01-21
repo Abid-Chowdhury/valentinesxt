@@ -1,7 +1,14 @@
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #ffe6ef, #ffeef6);
+  background: linear-gradient(to bottom right, #ffdfeb, #ffe9f1);
+  /* background: #ffe6ef; */
   color: #c9184a;
 }
 

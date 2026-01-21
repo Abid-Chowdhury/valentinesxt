@@ -4,7 +4,7 @@ export default function Stats() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ padding: "40px 20px"}}>
+    <div style={{ padding: "40px 20px" }}>
       
       <a href="/" className="stats-backward-link"> &lt; Home</a>
       <a href="/Pictures" className="stats-forward-link"> Pictures &gt; </a>
