@@ -22,7 +22,9 @@ export default function Question() {
 
     <div className="shy-text">
       The no button is a bit shy... just like my love for you isnt
-    </div>
+      </div>
+    
+      <div className="page-indicator">● ● ● <span>●</span> ●</div>
 
   </div>
 

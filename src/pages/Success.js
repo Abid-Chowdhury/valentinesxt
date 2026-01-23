@@ -20,6 +20,8 @@ export default function Success() {
 
       <a href="/" className="start-over-link">Start Over ✨</a>
 
+      <div className="page-indicator">● ● ● ● <span>●</span></div>
+
     </div>
   );
 }

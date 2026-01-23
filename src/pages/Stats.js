@@ -4,7 +4,7 @@ export default function Stats() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ padding: "40px 20px" }}>
+    <div style={{ padding: "40px 20px" }} className="stats-page">
       
       <a href="/" className="stats-backward-link"> &lt; Home</a>
       <a href="/Pictures" className="stats-forward-link"> Pictures &gt; </a>
@@ -55,7 +55,9 @@ export default function Stats() {
       >
         Pictures
       </button>
-
+    
+      <div className="page-indicator">● <span>●</span> ● ● ●</div>
+      
     </div>
   );
 }

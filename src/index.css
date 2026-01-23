@@ -173,6 +173,7 @@ body {
   grid-template-rows: repeat(3, 140px);
   gap: 16px;
   max-width: 700px;
+  min-width: 700px;
   margin: 40px auto;
 }
 
@@ -293,7 +294,6 @@ body {
 
 
 .start-over-link {
-  /* position: absolute; */
   top: 20px;
   left: 20px;
   color: #ff5c8a;
@@ -301,4 +301,34 @@ body {
   font-size: 1rem;
   transition: all 0.2s ease;
   padding-top: 20px;
+}
+
+.page-indicator {
+  /* margin-top: 80px; */
+  position: absolute;
+  bottom: 40px;
+  font-size: 1.2rem;
+  color: #ff93b2;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.page-indicator span {
+  color: #fe3e75;
+}
+
+.stats-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pictures-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

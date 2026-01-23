@@ -25,6 +25,8 @@ export default function Home() {
       >
         Explore Our Story →
       </button>
+
+      <div className="page-indicator"><span>●</span> ● ● ● ●</div>
     </div>
   );
 }

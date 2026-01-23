@@ -4,7 +4,7 @@ export default function Pictures() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ padding: "40px 20px" }}>
+    <div style={{ padding: "40px 20px" }} className="pictures-page">
 
     <a href="/Stats" className="stats-backward-link"> &lt; Stats</a>
     <a href="/Question" className="stats-forward-link"> Question &gt; </a>
@@ -12,7 +12,7 @@ export default function Pictures() {
     <div className="stats-subtitle">📸 MEMORIES 📸</div>
 
     <h1 className="page-title">Our Gallery</h1>
-    <div className="page pictures-page">
+    <div className="pictures-collage-container">
 
     <div className="pictures-collage">
       <div className="collage-item main">1</div>
@@ -30,6 +30,9 @@ export default function Pictures() {
         Question
       </button>
       </div>
+      
+      <div className="page-indicator">● ● <span>●</span> ● ●</div>
+
     </div>
   );
 }
