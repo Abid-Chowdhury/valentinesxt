@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Success() {
+  const navigate = useNavigate();
+
   return (
     <div className="success-page">
       <div className="heart">❤️</div>
@@ -13,6 +17,9 @@ export default function Success() {
       <div className="success-text">
         Happy Valentine's Day, my love!
       </div>
+
+      <a href="/" className="start-over-link">Start Over ✨</a>
+
     </div>
   );
 }
