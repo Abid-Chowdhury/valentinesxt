@@ -20,11 +20,10 @@ export default function Home() {
       </div>
 
       <button
-        // className="valentine-btn"
         className="button"
         onClick={() => navigate("/stats")}
       >
-        Explore Our Story →
+        Explore Our Story {'>'}
       </button>
 
       <div className="page-indicator"><span>●</span> ● ● ● ●</div>

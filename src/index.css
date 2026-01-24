@@ -90,6 +90,9 @@ body {
   font-size: 3.2rem;
   margin: 8px 0;
   color: var(--dark-red);
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
 }
 
 .and-symbol {
@@ -267,14 +270,20 @@ body {
 }
 
 .question-text {
-  font-size: 1.4rem;
+  font-size: 2.6rem;
+  color: var(--blue-gray);
+  /* font-weight: bold; */
+  font-style: italic;
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
-.question-highlight {
-  font-size: 2.6rem;
+.valentine-text {
+  font-size: 3rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--dark-red);
   margin-top: 4px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
 
 
