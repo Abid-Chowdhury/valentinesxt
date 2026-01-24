@@ -16,7 +16,7 @@ export default function Question() {
     <div className="question-text">Will you be my</div>
     <div className="question-highlight">Valentine?</div>
     <div className="question-buttons">
-      <button className="valentine-btn yes-btn" onClick={() => navigate("/Success")}>Yes 💕</button>
+      <button className="button yes-btn" onClick={() => navigate("/Success")}>Yes 💕</button>
       <button className="shy-btn" onClick={() => navigate("/success")}>Just say yes!</button>
     </div>
 

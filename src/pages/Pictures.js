@@ -10,7 +10,7 @@ export default function Pictures() {
     <a href="/Question" className="stats-forward-link"> Question &gt; </a>
 
     <div className="stats-subtitle">📸 MEMORIES 📸</div>
-
+Z
     <h1 className="page-title">Our Gallery</h1>
     <div className="pictures-collage-container">
 
@@ -24,7 +24,7 @@ export default function Pictures() {
     </div>
 
       <button
-        className="valentine-btn bottom-btn"
+        className="button"
         onClick={() => navigate("/Question")}
       >
         Question

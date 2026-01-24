@@ -1,3 +1,35 @@
+:root { 
+  --dark-red: #E11D48;
+  --light-red: #F43F5E;
+  --dark-rose: #FB7B8E;
+  --light-rose: #FECDD3;
+  --pink: #ED4794;
+  --blue-gray: #1F2937;
+  --gray: #6B7280;
+  --white: #FFFFFF;
+  --background-gradient-start: #FFF1F2;
+  --background-gradient-end: #FFFFFF;
+}
+
+/* 
+ALL ELEMENTS::
+
+PAGE: HOME
+Page header
+Title
+subtitle
+button
+page indicator
+page indicator span
+
+PAGE: STATS
+Stats card background
+Button
+
+
+*/
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -7,9 +39,31 @@ html, body {
 body {
 
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #ffdfeb, #ffe9f1);
+  background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
   /* background: #ffe6ef; */
-  color: #c9184a;
+  color: var(--dark-pink);
+}
+
+/* Main Button Element */
+.button {
+  display: block;
+  padding: 14px 36px;
+  border-radius: 30px;
+  border: none;
+  /* background: var(--dark-red); */
+  background: linear-gradient(to bottom right, var(--dark-red), var(--pink));
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  margin: 24px auto;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+
+.button:hover {
+  background: linear-gradient(to bottom right, var(--light-red), var(--pink));
+  transform: scale(1.05);
 }
 
 /* Center wrapper for main hero area */
@@ -24,7 +78,7 @@ body {
 
 /* Soft subtitle text */
 .subtitle {
-  color: #fb7588;
+  color: var(--dark-rose);
   letter-spacing: 2px;
   font-size: 0.9rem;
   margin-bottom: 12px;
@@ -35,11 +89,11 @@ body {
 .main-name {
   font-size: 3.2rem;
   margin: 8px 0;
-  color: #c9184a;
+  color: var(--dark-red);
 }
 
 .and-symbol {
-  color: #fb7588;
+  color: var(--dark-rose);
   font-size: 2rem;
   margin: 6px 0;
 }
@@ -48,7 +102,7 @@ body {
 .quote {
   margin-top: 10px;
   font-style: italic;
-  color: #6d6d6d;
+  color: var(--gray);
 }
 
 /* Heart icon */
@@ -57,37 +111,18 @@ body {
   margin-bottom: 25px;
 }
 
-/* Valentine button */
-.valentine-btn {
-  display: block;
-  padding: 14px 36px;
-  border-radius: 30px;
-  border: none;
-  background: #ff5c8a;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  margin: 24px auto;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-}
-
-.valentine-btn:hover {
-  background: #e6005c;
-  transform: scale(1.05);
-}
 
 /* Shared page title styles */
 .page-title {
   text-align: center;
-  color: #c9184a;
+  color: var(--dark-pink);
   font-size: 2.4rem;
   margin-bottom: 8px;
 }
 
 .page-subtitle {
   text-align: center;
-  color: #6d6d6d;
+  color: var(--gray);
   margin-bottom: 40px;
 }
 
@@ -103,7 +138,7 @@ body {
 /* Stats Subtitle */
 .stats-subtitle {
   text-align: center;
-  color: #fb7588;
+  color: var(--dark-rose);
   letter-spacing: 2px;
   font-size: 1rem;
   margin-bottom: 12px;
@@ -112,7 +147,7 @@ body {
 
 /* Stat Card */
 .stat-card {
-  background: white;
+  background: var(--white);
   border-radius: 20px;
   padding: 24px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
@@ -127,7 +162,7 @@ body {
 
 /* Stat label */
 .stat-label {
-  color: #6d6d6d;
+  color: var(--gray);
   margin-top: 4px;
 }
 
@@ -137,14 +172,14 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: gray;
+  color: var(--gray);
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.2s ease;
 }
 
 .stats-backward-link:hover {
-  color: #ff5c8a;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -154,14 +189,14 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: gray;
+  color: var(--gray);
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.2s ease;
 }
 
 .stats-forward-link:hover {
-  color: #ff5c8a;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -185,7 +220,7 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #ff5c8a;
+  color: var(--light-pink);
 }
 
 /* Main 2x2 image */
@@ -223,7 +258,7 @@ body {
 .question-highlight {
   font-size: 2.6rem;
   font-weight: bold;
-  color: #ff5c8a;
+  color: var(--primary-color);
   margin-top: 4px;
 }
 
@@ -243,24 +278,24 @@ body {
 .shy-btn {
   padding: 14px 36px;
   border-radius: 30px;
-  border: 2px solid #ff5c8a;
-  background: white;
-  color: #ff5c8a;
+  border: 2px solid var(--dark-red);
+  background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
+  color: var(--dark-red);
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .shy-btn:hover {
-  background: #ff5c8a;
-  color: white;
+  background: linear-gradient(to bottom right, var(--light-red), var(--pink));
+  color: var(--white);
 }
 
 /* Text under buttons */
 .shy-text {
   margin-top: 20px;
   font-size: 0.95rem;
-  color: #777;
+  color: var(--gray);
   max-width: 320px;
 }
 
@@ -296,7 +331,7 @@ body {
 .start-over-link {
   top: 20px;
   left: 20px;
-  color: #ff5c8a;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.2s ease;
@@ -308,13 +343,13 @@ body {
   position: absolute;
   bottom: 40px;
   font-size: 1.2rem;
-  color: #ff93b2;
+  color: var(--light-rose);
   letter-spacing: 4px;
   text-align: center;
 }
 
 .page-indicator span {
-  color: #fe3e75;
+  color: var(--dark-rose);
 }
 
 .stats-page {

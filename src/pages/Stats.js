@@ -50,7 +50,7 @@ export default function Stats() {
       </div>
 
       <button
-        className="valentine-btn bottom-btn"
+        className="button"
         onClick={() => navigate("/Pictures")}
       >
         Pictures
