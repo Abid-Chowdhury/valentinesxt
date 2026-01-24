@@ -49,6 +49,44 @@ export default function Stats() {
         </div>
       </div>
 
+      <div className="milestones-container">
+        <div className="milestone-title">⭐ Our Milestones</div>
+        <div className="milestones-grid">
+          <div className="left-side">
+            <div className="vertical-line">
+
+            </div>
+          </div>
+
+          <div className="right-side">
+            <div className="milestone-item">
+              <div className="milestone-description">The Day We Met</div>
+              <div className="milestone-date">Jan 15, 2023</div>
+            </div>
+            <div className="milestone-item">
+              <div className="milestone-description">First "I love you"</div>
+              <div className="milestone-date">Jan 15, 2023</div>
+            </div>
+            <div className="milestone-item">
+              <div className="milestone-description">First Date</div>
+              <div className="milestone-date">Jan 15, 2023</div>
+            </div>
+            <div className="milestone-item">
+              <div className="milestone-description">First Kiss</div>
+              <div className="milestone-date">Jan 15, 2023</div>
+            </div>
+            <div className="milestone-item">
+              <div className="milestone-description">Met in person</div>
+              <div className="milestone-date">Jan 15, 2023</div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+
+
       <button
         className="button"
         onClick={() => navigate("/Pictures")}
