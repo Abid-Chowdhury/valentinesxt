@@ -11,25 +11,7 @@
   --background-gradient-end: #FFFFFF;
 }
 
-/* 
-ALL ELEMENTS::
-
-PAGE: HOME
-Page header
-Title
-subtitle
-button
-page indicator
-page indicator span
-
-PAGE: STATS
-Stats card background
-Button
-
-
-*/
-
-
+/* Global Styles */
 html, body {
   margin: 0;
   padding: 0;
@@ -37,10 +19,8 @@ html, body {
 }
 
 body {
-
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
-  /* background: #ffe6ef; */
   color: var(--dark-pink);
 }
 
@@ -50,7 +30,6 @@ body {
   padding: 14px 36px;
   border-radius: 30px;
   border: none;
-  /* background: var(--dark-red); */
   background: linear-gradient(to bottom right, var(--dark-red), var(--pink));
   color: var(--white);
   font-weight: bold;
@@ -124,6 +103,16 @@ body {
   position: absolute;
   top: 20px;
   
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.page-link {
+  position: fixed;
+  top: 20px;
+  z-index: 100;
   color: var(--gray);
   text-decoration: none;
   font-size: 1rem;
