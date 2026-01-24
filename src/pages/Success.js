@@ -10,12 +10,12 @@ export default function Success() {
       <h1 className="success-title">Yay!</h1>
       <div className="success-subtitle">I knew you'd say yes!</div>
 
-      <div className="success-text">
-        You have my heart, today, tomorrow, and forever
+      <div className="success-text quote">
+        "You have my heart, today, tomorrow, and forever
       </div>
 
-      <div className="success-text">
-        Happy Valentine's Day, my love!
+      <div className="success-text quote">
+        Happy Valentine's Day, my love! 💕"
       </div>
 
       <a href="/" className="start-over-link">Start Over ✨</a>

@@ -6,11 +6,11 @@ export default function Pictures() {
   return (
     <div style={{ padding: "40px 20px" }} className="pictures-page">
 
-    <a href="/Stats" className="stats-backward-link"> &lt; Stats</a>
-    <a href="/Question" className="stats-forward-link"> Question &gt; </a>
+    <a href="/Stats" className="page-backward-link page-link"> &lt; Stats</a>
+    <a href="/Question" className="page-forward-link page-link"> Question &gt; </a>
 
     <div className="stats-subtitle">📸 MEMORIES 📸</div>
-Z
+
     <h1 className="page-title">Our Gallery</h1>
     <div className="pictures-collage-container">
 
@@ -23,10 +23,7 @@ Z
       <div className="collage-item">6</div>
     </div>
 
-      <button
-        className="button"
-        onClick={() => navigate("/Question")}
-      >
+      <button className="button" onClick={() => navigate("/Question")}>
         Question
       </button>
       </div>

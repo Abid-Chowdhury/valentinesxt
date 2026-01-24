@@ -6,14 +6,14 @@ export default function Stats() {
   return (
     <div style={{ padding: "40px 20px" }} className="stats-page">
       
-      <a href="/" className="stats-backward-link"> &lt; Home</a>
-      <a href="/Pictures" className="stats-forward-link"> Pictures &gt; </a>
+      <a href="/" className="page-backward-link page-link"> &lt; Home</a>
+      <a href="/Pictures" className="page-forward-link page-link"> Pictures &gt; </a>
 
       <div className="stats-subtitle">✨ OUR JOURNEY ✨</div>
 
       <h1 className="page-title">Relationship Stats</h1>
 
-      <div className="page-subtitle">
+      <div className="page-subtitle quote">
         A glimpse into the beautiful moments we've shared together
       </div>
 
