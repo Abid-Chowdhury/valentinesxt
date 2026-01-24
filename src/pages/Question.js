@@ -10,7 +10,7 @@ export default function Question() {
       
     <div className="heart">❤️</div>
 
-    <h1 className="question-title">The big question</h1>
+    <div className="subtitle"> ✨ THE BIG QUESTION ✨</div>
     <div className="question-text">Will you be my</div>
     <div className="question-highlight">Valentine?</div>
     <div className="question-buttons">

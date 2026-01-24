@@ -9,7 +9,7 @@ export default function Stats() {
       <a href="/" className="page-backward-link page-link"> &lt; Home</a>
       <a href="/Pictures" className="page-forward-link page-link"> Pictures &gt; </a>
 
-      <div className="stats-subtitle">✨ OUR JOURNEY ✨</div>
+      <div className="subtitle">✨ OUR JOURNEY ✨</div>
 
       <h1 className="page-title">Relationship Stats</h1>
 

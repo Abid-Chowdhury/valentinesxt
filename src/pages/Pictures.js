@@ -9,7 +9,7 @@ export default function Pictures() {
     <a href="/Stats" className="page-backward-link page-link"> &lt; Stats</a>
     <a href="/Question" className="page-forward-link page-link"> Question &gt; </a>
 
-    <div className="stats-subtitle">📸 MEMORIES 📸</div>
+    <div className="subtitle">📸 MEMORIES 📸</div>
 
     <h1 className="page-title">Our Gallery</h1>
     <div className="pictures-collage-container">
