@@ -11,7 +11,11 @@ export default function Pictures() {
 
     <div className="subtitle">📸 MEMORIES 📸</div>
 
-    <h1 className="page-title">Our Gallery</h1>
+      <h1 className="page-title">Our Gallery</h1>
+      
+    <div className="page-subtitle quote">
+        A glimpse into the beautiful moments we've shared together
+      </div>
     <div className="pictures-collage-container">
 
     <div className="pictures-collage">

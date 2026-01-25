@@ -13,9 +13,7 @@ export default function Stats() {
 
       <h1 className="page-title">Relationship Stats</h1>
 
-      <div className="page-subtitle quote">
-        A glimpse into the beautiful moments we've shared together
-      </div>
+
 
       <div className="stats-grid">
         <div className="stat-card">
