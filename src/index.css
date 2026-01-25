@@ -100,16 +100,6 @@ body {
 }
 
 .page-link {
-  position: absolute;
-  top: 20px;
-  
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 1rem;
-  transition: all 0.2s ease;
-}
-
-.page-link {
   position: fixed;
   top: 20px;
   z-index: 100;
@@ -402,8 +392,7 @@ body {
 }
 
 .page-indicator {
-  /* margin-top: 80px; */
-  position: absolute;
+  position: fixed;
   bottom: 40px;
   font-size: 1.2rem;
   color: var(--light-rose);
