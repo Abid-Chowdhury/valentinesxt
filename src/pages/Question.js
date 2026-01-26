@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import HeartSvg from "./HeartSvg";
 
 export default function Question() {
   const navigate = useNavigate();
@@ -8,7 +9,8 @@ export default function Question() {
       
     <a href="/Pictures" className="page-backward-link page-link"> &lt; Pictures</a>
       
-    <div className="heart">❤️</div>
+      {/* <div className="question-heart">❤️</div> */}
+      <HeartSvg size={125} color="#F43F5E" beating={true} />
 
     <div className="subtitle"> ✨ THE BIG QUESTION ✨</div>
     <div className="question-text">Will you be my</div>
