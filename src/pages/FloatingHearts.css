@@ -8,20 +8,23 @@
 
 .heart {
   position: absolute;
-  bottom: -20px;
-  animation: floatUp 7s linear forwards;
+  bottom: -24px;
+  animation: floatUp 9s linear forwards;
+  filter: drop-shadow(0 0 4px rgba(251, 123, 142, 0.4));
+  transform: translateX(0) rotate(0);
 }
 
 @keyframes floatUp {
-  from {
-    transform: translateY(0);
+  0% {
+    transform: translateX(0) translateY(0) rotate(0);
     opacity: 0;
   }
-  10% {
+  15% {
     opacity: 1;
   }
-  to {
-    transform: translateY(-110vh);
+
+  100% {
+    transform: translateX(0) translateY(-110vh) rotate(0);
     opacity: 0;
   }
 }

@@ -1,46 +1,73 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
+import HeartSvg from "./HeartSvg";
 import "./FloatingHearts.css";
 
 export default function FloatingHearts() {
   const [hearts, setHearts] = useState([]);
+  const intervalRef = useRef(null);
+  const counterRef = useRef(0);
 
   useEffect(() => {
-    let counter = 0;
+    const start = () => {
+      if (intervalRef.current) return;
 
-    const interval = setInterval(() => {
-      const duration = 7; // fixed for safety
-      const id = counter++; // ✅ no crypto, no Date.now
+      intervalRef.current = setInterval(() => {
+        const id = counterRef.current++;
 
-      setHearts((prev) => [
-        ...prev,
-        {
-          id,
-          left: Math.random() * 100,
-          size: Math.random() * 25 + 8
-        }
-      ]);
+        const duration = 7;
 
-      setTimeout(() => {
-        setHearts((prev) => prev.filter((h) => h.id !== id));
-      }, duration * 1000);
-    }, 600); // fewer hearts
+        setHearts((prev) => [
+          ...prev,
+          {
+            id,
+            left: Math.random() * 100,
+            size: Math.random() * 10 + 25,
+          }
+        ]);
 
-    return () => clearInterval(interval);
+        setTimeout(() => {
+          setHearts((prev) => prev.filter((h) => h.id !== id));
+        }, duration * 1000);
+      }, 1000);
+    };
+
+    const stop = () => {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    };
+
+    // Start initially
+    start();
+
+    // Pause when tab is inactive
+    const handleVisibility = () => {
+      if (document.hidden) {
+        stop();
+      } else {
+        start();
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibility);
+
+    return () => {
+      stop();
+      document.removeEventListener("visibilitychange", handleVisibility);
+    };
   }, []);
 
   return (
     <div className="hearts-container">
       {hearts.map((heart) => (
-        <span
+        <div
           key={heart.id}
           className="heart"
           style={{
-            left: `${heart.left}%`,
-            fontSize: `${heart.size}px`
+            left: `${heart.left}%`
           }}
         >
-          ❤️
-        </span>
+          <HeartSvg size={heart.size} />
+        </div>
       ))}
     </div>
   );
