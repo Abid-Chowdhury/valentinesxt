@@ -66,7 +66,7 @@ export default function FloatingHearts() {
             left: `${heart.left}%`
           }}
         >
-          <HeartSvg size={heart.size} />
+          <HeartSvg size={heart.size} color="#FB7B8E" />
         </div>
       ))}
     </div>

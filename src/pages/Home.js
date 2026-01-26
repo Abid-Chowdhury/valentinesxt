@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import FloatingHearts from "./FloatingHearts";
+import HeartSvg from "./HeartSvg";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -10,7 +11,8 @@ export default function Home() {
 
 
 
-      <div className="big-heart">💗</div>
+      {/* <div className="big-heart">💗</div> */}
+      <HeartSvg size={125} color="#F43F5E" beating={true} />
 
       <div className="subtitle">VALENTINE'S DAY 2026</div>
 

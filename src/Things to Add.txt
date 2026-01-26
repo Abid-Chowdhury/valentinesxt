@@ -2,7 +2,6 @@ All pages:
 clicking on a page indicator takes user to that page 
 
 Home page:
-small hearts floating up the screen from the bottom
 the main heart beating
 
 Stats page:
