@@ -22,6 +22,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
   color: var(--dark-pink);
+  z-index: 1000;
 }
 
 /* Main Button Element */
@@ -415,3 +416,5 @@ body {
   align-items: center;
   text-align: center;
 }
+
+
