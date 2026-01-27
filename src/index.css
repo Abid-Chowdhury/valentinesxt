@@ -331,28 +331,47 @@ body {
 /* Pink YES button (reuse valentine theme) */
 .yes-btn {
   margin: 0;
+  width: 140px;
+
 }
 
 /* White shy button */
-.shy-btn {
+.no-btn {
+  /* display: block; */
   padding: 14px 36px;
   border-radius: 30px;
-  border: 2px solid var(--dark-red);
-  background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
-  color: var(--dark-red);
+  border: none;
+  background: linear-gradient(to bottom right, var(--dark-red), var(--pink));
+  color: var(--white);
   font-weight: bold;
   cursor: pointer;
+  /* margin: 24px auto; */
   transition: all 0.3s ease;
+  font-size: 1rem;
+  width: 140px;
 }
 
-.shy-btn:hover {
+.no-btn:hover {
   background: linear-gradient(to bottom right, var(--light-red), var(--pink));
   color: var(--white);
+  transform: scale(1.05);
 }
 
 /* Text under buttons */
 .shy-text {
   margin-top: 20px;
+  font-size: 0.95rem;
+  max-width: 320px;
+}
+
+.no-btn::after {
+  content: "No";
+  font-size: 0.95rem;
+  max-width: 320px;
+}
+
+.no-btn:hover::after {
+  content: "YES 💜";
   font-size: 0.95rem;
   max-width: 320px;
 }

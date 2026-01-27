@@ -21,8 +21,8 @@ export default function Question() {
     <div className="question-text">Will you be my</div>
     <div className="valentine-text">Valentine?</div>
     <div className="question-buttons">
-      <button className="button yes-btn" onClick={() => navigate("/Success")}>Yes 💕</button>
-      <button className="shy-btn" onClick={() => navigate("/success")}>Just say yes!</button>
+      <button className="button yes-btn" onClick={() => navigate("/Success")}>Yes 💜</button>
+      <button className="no-btn" onClick={() => navigate("/success")}></button>
     </div>
 
     <div className="shy-text quote">
