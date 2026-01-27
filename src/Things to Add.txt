@@ -4,14 +4,16 @@ loading - elements load in with a fade-in effect one after another
 Home page:
 
 Stats page:
+Add milestones
 
 Pictures page:
 hovering over a picture slightly enlarges it and adds a subtle shadow
 add the pictures
 clicking on a picture opens it in a larger view or lightbox with a subtitle or date
+Add the pictures
+
 
 Questions page:
 
 Success page:
 add confetti animation when the page loads with hearts
-Format the texts

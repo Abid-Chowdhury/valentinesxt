@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import HeartSvg from "./HeartSvg";
 import { useEffect } from "react";
+import FloatingHearts from "./FloatingHearts";
 
 export default function Success() {
   const navigate = useNavigate();
@@ -11,14 +12,14 @@ export default function Success() {
 
   return (
     <div className="success-page">
-      <div className="heart">❤️</div>
-      <HeartSvg size={125} color="#F43F5E" shake beating />
+      {/* <div className="heart">❤️</div> */}
+      <HeartSvg size={150} color="#F43F5E" shake beating />
 
-      <h1 className="success-title">Yay!</h1>
+      <h1 className="success-title">Yay! 🎉</h1>
       <div className="success-subtitle">I knew you'd say yes!</div>
 
       <div className="success-text quote">
-        "You have my heart, today, tomorrow, and forever
+        "You have my heart, today, tomorrow, and forever.
       </div>
 
       <div className="success-text quote">
@@ -28,6 +29,8 @@ export default function Success() {
       <a href="/" className="start-over-link">Start Over ✨</a>
 
       <div className="page-indicator">● ● ● ● <span>●</span></div>
+      
+      <FloatingHearts />
 
     </div>
   );

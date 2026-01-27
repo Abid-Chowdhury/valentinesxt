@@ -86,9 +86,10 @@ body {
   margin-top: 10px;
   font-style: italic;
   color: var(--gray);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: 6px;
-  max-width: 340px;
+  max-width: 400px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Page Top Links */
@@ -399,14 +400,19 @@ body {
 }
 
 .success-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 6px;
+  color: var(--light-red);
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 0;
+
 }
 
 .success-subtitle {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .start-over-link {
