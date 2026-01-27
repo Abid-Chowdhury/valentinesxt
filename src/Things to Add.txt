@@ -16,4 +16,4 @@ Add the pictures
 Questions page:
 
 Success page:
-add confetti animation when the page loads with hearts
+

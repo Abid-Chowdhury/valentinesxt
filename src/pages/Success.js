@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import HeartSvg from "./HeartSvg";
 import { useEffect } from "react";
 import FloatingHearts from "./FloatingHearts";
+import FloatingEmojis from "./FloatingEmojis";
 
 export default function Success() {
   const navigate = useNavigate();
@@ -30,6 +31,7 @@ export default function Success() {
 
       <div className="page-indicator">● ● ● ● <span>●</span></div>
       
+      <FloatingEmojis />
       <FloatingHearts />
 
     </div>
