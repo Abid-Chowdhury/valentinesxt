@@ -1,8 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import HeartSvg from "./HeartSvg";
+import { useEffect } from "react";
 
 export default function Success() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "YAY! 🥳";
+  }, []);
 
   return (
     <div className="success-page">

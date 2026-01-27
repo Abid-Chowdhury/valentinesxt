@@ -1,8 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import HeartSvg from "./HeartSvg";
+import { useEffect } from "react";
 
 export default function Question() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Say Yes! 😁";
+  }, []);
 
   return (
     <div className="question-page">

@@ -1,7 +1,12 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Pictures() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Pictures 📸";
+  }, []);
 
   return (
     <div style={{ padding: "40px 20px" }} className="pictures-page">

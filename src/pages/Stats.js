@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Stats() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Our Stats 😊";
+  }, []);
 
   return (
     <div style={{ padding: "40px 20px" }} className="stats-page">

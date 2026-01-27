@@ -1,5 +1,6 @@
 All pages:
 Set title of each tab and add favicon
+loading - elements load in with a fade-in effect one after another
 
 Home page:
 
@@ -15,5 +16,4 @@ Questions page:
 change "no" button to "Yes, but in gray"
 
 Success page:
-Beating heart (shake effect)
 add confetti animation when the page loads with hearts
