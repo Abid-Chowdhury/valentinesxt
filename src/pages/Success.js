@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import HeartSvg from "./HeartSvg";
 
 export default function Success() {
   const navigate = useNavigate();
@@ -6,6 +7,7 @@ export default function Success() {
   return (
     <div className="success-page">
       <div className="heart">❤️</div>
+      <HeartSvg size={125} color="#F43F5E" shake beating />
 
       <h1 className="success-title">Yay!</h1>
       <div className="success-subtitle">I knew you'd say yes!</div>
