@@ -27,7 +27,7 @@ export default function Success() {
         Happy Valentine's Day, my love! 💕"
       </div>
 
-      <a href="/" className="start-over-link">Start Over ✨</a>
+      <a href="/valentinesxt" className="start-over-link">Start Over ✨</a>
 
       <div className="page-indicator">● ● ● ● <span>●</span></div>
       

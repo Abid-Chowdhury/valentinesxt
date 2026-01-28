@@ -11,7 +11,7 @@ export default function Stats() {
   return (
     <div style={{ padding: "40px 20px" }} className="stats-page">
       
-      <a href="/" className="page-backward-link page-link"> &lt; Home</a>
+      <a href="/valentinesxt" className="page-backward-link page-link"> &lt; Home</a>
       <a href="/Pictures" className="page-forward-link page-link"> Pictures &gt; </a>
 
       <div className="subtitle">✨ OUR JOURNEY ✨</div>
