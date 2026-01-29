@@ -11,7 +11,7 @@ export default function Pictures() {
   return (
     <div style={{ padding: "40px 20px" }} className="pictures-page">
 
-    <a href="/Stats" className="page-backward-link page-link"> &lt; Stats</a>
+    <a href="/stats" className="page-backward-link page-link"> &lt; Stats</a>
     <a href="/Question" className="page-forward-link page-link"> Question &gt; </a>
 
     <div className="subtitle">📸 MEMORIES 📸</div>
