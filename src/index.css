@@ -109,11 +109,13 @@ body {
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.2s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .page-link:hover{
-  color: var(--dark-rose);
-  font-weight: bold;
+  color: var(--light-red);
 }
 
 /* Milestone styling */
