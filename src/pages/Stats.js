@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Stats() {
   const navigate = useNavigate();
@@ -11,8 +12,11 @@ export default function Stats() {
   return (
     <div style={{ padding: "40px 20px" }} className="stats-page">
       
-      <a href="/valentinesxt" className="page-backward-link page-link"> &lt; Home</a>
-      <a href="/Pictures" className="page-forward-link page-link"> Pictures &gt; </a>
+      {/* <a href="/valentinesxt" className="page-backward-link page-link"> &lt; Home</a> */}
+      {/* <a href="/Pictures" className="page-forward-link page-link"> Pictures &gt; </a> */}
+      <button className="page-backward-link page-link" onClick={() => navigate("/valentinesxt")}> &lt; Home</button>
+      <button className="page-forward-link page-link" onClick={() => navigate("/Pictures")}> Pictures &gt; </button>
+
 
       <div className="subtitle">✨ OUR JOURNEY ✨</div>
 
@@ -85,10 +89,7 @@ export default function Stats() {
             
           </div>
         </div>
-        
-
       </div>
-
 
       <button
         className="button"
