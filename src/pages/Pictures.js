@@ -26,12 +26,24 @@ export default function Pictures() {
     <div className="pictures-collage-container">
 
     <div className="pictures-collage">
-      <div className="collage-item main">1</div>
-      <div className="collage-item">2</div>
-      <div className="collage-item">3</div>
-      <div className="collage-item">4</div>
-      <div className="collage-item">5</div>
-      <div className="collage-item">6</div>
+        <div className="collage-item main">
+            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/1.png?raw=true" alt="Picture 1"></img>
+      </div>
+      <div className="collage-item">
+            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/2.png?raw=true" alt="Picture 2"></img>
+      </div>
+      <div className="collage-item">
+            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/3.png?raw=true" alt="Picture 3"></img>
+      </div>
+      <div className="collage-item">
+            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/4.png?raw=true" alt="Picture 4"></img>
+      </div>
+      <div className="collage-item">
+            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/5.png?raw=true" alt="Picture 5"></img>
+      </div>
+      <div className="collage-item">
+            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/6.png?raw=true" alt="Picture 6"></img>
+      </div>
     </div>
 
       <button className="button" onClick={() => navigate("/Question")}>
