@@ -67,23 +67,23 @@ export default function Stats() {
           <div className="right-side">
             <div className="milestone-item">
               <div className="milestone-description">The Day We Met</div>
-              <div className="milestone-date">Jan 15, 2023</div>
+              <div className="milestone-date">July 18, 2022</div>
             </div>
             <div className="milestone-item">
               <div className="milestone-description">First "I Love You"</div>
-              <div className="milestone-date">Jan 15, 2023</div>
-            </div>
-            <div className="milestone-item">
-              <div className="milestone-description">First Date</div>
-              <div className="milestone-date">Jan 15, 2023</div>
-            </div>
-            <div className="milestone-item">
-              <div className="milestone-description">First Kiss</div>
-              <div className="milestone-date">Jan 15, 2023</div>
+              <div className="milestone-date">November 22, 2022</div>
             </div>
             <div className="milestone-item">
               <div className="milestone-description">Met In Person</div>
-              <div className="milestone-date">Jan 15, 2023</div>
+              <div className="milestone-date">October 28, 2024</div>
+            </div>
+            <div className="milestone-item">
+              <div className="milestone-description">First Kiss</div>
+              <div className="milestone-date">October 29, 2024</div>
+            </div>
+            <div className="milestone-item">
+              <div className="milestone-description">First Date</div>
+              <div className="milestone-date">November 3, 2024</div>
             </div>
             
           </div>
