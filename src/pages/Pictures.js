@@ -20,8 +20,8 @@ export default function Pictures() {
 
       <h1 className="page-title">Our Gallery</h1>
       
-    <div className="page-subtitle quote">
-        A glimpse into the beautiful moments we've shared together
+    <div className="quote">
+        🖼️ A Glimpse Into The Beautiful Moments We've Shared Together 🖼️
       </div>
     <div className="pictures-collage-container">
 

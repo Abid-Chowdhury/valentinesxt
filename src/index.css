@@ -237,41 +237,6 @@ body {
   margin-top: 4px;
 }
 
-/* Stats Backward Link */
-
-.stats-backward-link {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 1rem;
-  transition: all 0.2s ease;
-}
-
-.stats-backward-link:hover {
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-/* Stats Forward Link */
-
-.stats-forward-link {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: var(--gray);
-  text-decoration: none;
-  font-size: 1rem;
-  transition: all 0.2s ease;
-}
-
-.stats-forward-link:hover {
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-
 /* Pictures collage layout */
 .pictures-collage {
   display: grid;
@@ -313,12 +278,6 @@ body {
 .question-heart {
   font-size: 120px;
   margin-bottom: 20px;
-}
-
-.question-title {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
 }
 
 .question-text {
@@ -373,13 +332,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Text under buttons */
-.shy-text {
-  margin-top: 20px;
-  font-size: 0.95rem;
-  max-width: 320px;
-}
-
 .no-btn::after {
   content: "No";
   font-size: 0.95rem;
@@ -387,7 +339,7 @@ body {
 }
 
 .no-btn:hover::after {
-  content: "YES 💜";
+  content: "Yes 💜";
   font-size: 0.95rem;
   max-width: 320px;
 }

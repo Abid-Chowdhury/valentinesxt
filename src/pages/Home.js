@@ -28,7 +28,7 @@ export default function Home() {
       <div className="main-name">NAME</div>
 
       <div className="quote">
-        "A love story written in the stars"
+        ✨ A Love Story Written In The Stars ✨
       </div>
 
       <button

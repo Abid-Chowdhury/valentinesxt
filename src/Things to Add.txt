@@ -1,5 +1,9 @@
+After:
+Use tsx
+Make components
+Semantic html
+
 All pages:
-Fix links not working
 loading - elements load in with a fade-in effect one after another
 a border design
 use cutesy fonts

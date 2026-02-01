@@ -26,8 +26,8 @@ export default function Question() {
       <button className="no-btn" onClick={() => navigate("/success")}></button>
     </div>
 
-    <div className="shy-text quote">
-      The no button is a bit shy... just like my love for you isnt
+    <div className="quote">
+      💖 My Love For You Is Eternal 💖
       </div>
     
       <div className="page-indicator">● ● ● <span>●</span> ●</div>
