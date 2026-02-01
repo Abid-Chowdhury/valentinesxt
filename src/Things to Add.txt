@@ -15,7 +15,6 @@ When page loads, it will show an envelope with a a heart on it > when clicked, t
 
 Stats page:
 Add milestones
-"i love you texts"
 
 Pictures page:
 hovering over a picture slightly enlarges it and adds a subtle shadow

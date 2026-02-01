@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 export default function Stats() {
   const navigate = useNavigate();
@@ -27,7 +26,7 @@ export default function Stats() {
       <div className="stats-grid">
         <div className="stat-card">
           <div className="stat-number">1318</div>
-          <div className="stat-label">Days Since we Met</div>
+          <div className="stat-label">Days Since We Met</div>
         </div>
 
         <div className="stat-card">
@@ -42,17 +41,17 @@ export default function Stats() {
 
         <div className="stat-card">
           <div className="stat-number">10950+</div>
-          <div className="stat-label">Hours in call</div>
+          <div className="stat-label">Hours In Call</div>
         </div>
 
         <div className="stat-card">
           <div className="stat-number">1630+</div>
-          <div className="stat-label">Love you texts</div>
+          <div className="stat-label">I Love You Texts</div>
         </div>
 
         <div className="stat-card">
           <div className="stat-number">2429+</div>
-          <div className="stat-label">Good nights and mornings</div>
+          <div className="stat-label">Good Nights And Mornings</div>
         </div>
       </div>
 
@@ -71,7 +70,7 @@ export default function Stats() {
               <div className="milestone-date">Jan 15, 2023</div>
             </div>
             <div className="milestone-item">
-              <div className="milestone-description">First "I love you"</div>
+              <div className="milestone-description">First "I Love You"</div>
               <div className="milestone-date">Jan 15, 2023</div>
             </div>
             <div className="milestone-item">
@@ -83,7 +82,7 @@ export default function Stats() {
               <div className="milestone-date">Jan 15, 2023</div>
             </div>
             <div className="milestone-item">
-              <div className="milestone-description">Met in person</div>
+              <div className="milestone-description">Met In Person</div>
               <div className="milestone-date">Jan 15, 2023</div>
             </div>
             
