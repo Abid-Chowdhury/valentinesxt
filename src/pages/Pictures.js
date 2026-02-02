@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useState } from "react";
+import FloatingHearts from "./FloatingHearts";
 
 import pic1 from "../Pictures/1.png";
 import pic2 from "../Pictures/2.png";
@@ -69,7 +70,7 @@ export default function Pictures() {
       </div>
       
       <div className="page-indicator">● ● <span>●</span> ● ●</div>
-
+      <FloatingHearts />
     </div>
   );
 }

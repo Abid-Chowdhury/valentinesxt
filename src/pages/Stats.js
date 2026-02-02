@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import FloatingHearts from "./FloatingHearts";
 
 export default function Stats() {
   const navigate = useNavigate();
@@ -92,7 +93,7 @@ export default function Stats() {
       </button>
     
       <div className="page-indicator">● <span>●</span> ● ● ●</div>
-      
+            <FloatingHearts />
     </div>
   );
 }

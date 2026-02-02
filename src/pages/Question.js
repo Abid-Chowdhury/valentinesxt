@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import HeartSvg from "./HeartSvg";
 import { useEffect } from "react";
+import FloatingHearts from "./FloatingHearts";
 
 export default function Question() {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ export default function Question() {
       </div>
     
       <div className="page-indicator">● ● ● <span>●</span> ●</div>
-
+      <FloatingHearts />
   </div>
 
   );

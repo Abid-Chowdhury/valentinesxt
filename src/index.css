@@ -2,13 +2,15 @@
   --dark-red: #E11D48;
   --light-red: #F43F5E;
   --dark-rose: #FB7B8E;
-  --light-rose: #FECDD3;
+  --light-rose: rgb(254, 205, 211);
   --pink: #ED4794;
   --blue-gray: #1F2937;
   --gray: #6B7280;
   --white: #FFFFFF;
-  --background-gradient-start: #FFF1F2;
-  --background-gradient-end: #FFFFFF;
+  /* --background-gradient-start: #FFF1F2; */
+  /* --background-gradient-end: #FFFFFF; */
+  --background-gradient-start: var(--light-rose);
+  --background-gradient-end: var(--white);
 }
 
 /* Global Styles */
@@ -21,6 +23,7 @@ html, body {
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to bottom right, var(--background-gradient-start), var(--background-gradient-end));
+  /* background: black; */
   color: var(--dark-pink);
   z-index: 1000;
 }
@@ -413,7 +416,7 @@ body {
   font-size: 1.2rem;
   color: var(--light-rose);
   letter-spacing: 4px;
-  text-align: center;
+  cursor: default;
 }
 
 .page-indicator span {
@@ -486,3 +489,4 @@ body {
     transform: scale(1);
   }
 } 
+

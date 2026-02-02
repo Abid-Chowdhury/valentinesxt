@@ -4,15 +4,10 @@ Make components
 Semantic html
 
 All pages:
-loading - elements load in with a fade-in effect one after another
-a border design
-use cutesy fonts
-make it "cute data"
-cute cat in the corner thats holding a flower
-make the background gradiant more visible
+
+animated background
 
 Home page:
-When page loads, it will show an envelope with a a heart on it > when clicked, the envelope opens to reveal the home page content
 
 Stats page:
 
@@ -21,5 +16,4 @@ Pictures page:
 Questions page:
 
 Success page:
-the heart brusts when the page loads, and it turns into confetti. as the confetti falls, it shows a new heart in the center with the success message.
 

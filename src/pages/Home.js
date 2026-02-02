@@ -13,8 +13,9 @@ export default function Home() {
   return (   
 
     <div className="center-container">
-      <HeartSvg size={125} color="#F43F5E" beating={true} />
 
+      <HeartSvg size={125} color="#F43F5E" beating={true} />
+      
       <div className="subtitle">VALENTINE'S DAY 2026</div>
 
       <div className="main-name">NAME</div>
@@ -38,5 +39,6 @@ export default function Home() {
 
       <FloatingHearts />
     </div>
+
   );
 }
