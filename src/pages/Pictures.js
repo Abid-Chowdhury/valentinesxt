@@ -1,5 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import pic1 from "../Pictures/1.png";
+import pic2 from "../Pictures/2.png";
+import pic3 from "../Pictures/3.png";
+import pic4 from "../Pictures/4.png";
+import pic5 from "../Pictures/5.png";
+import pic6 from "../Pictures/6.png";
 
 export default function Pictures() {
   const navigate = useNavigate();
@@ -27,22 +33,22 @@ export default function Pictures() {
 
     <div className="pictures-collage">
         <div className="collage-item main">
-            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/1.png?raw=true" alt="Picture 1" ></img>
+            <img src={pic1} alt="Picture 1" ></img>
       </div>
       <div className="collage-item">
-            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/2.png?raw=true" alt="Picture 2" style={{ transform: "scale(1.25)", marginRight: "25px" }}></img>
+            <img src={pic2} alt="Picture 2" style={{ transform: "scale(1.25)", marginRight: "25px" }}></img>
       </div>
       <div className="collage-item">
-            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/3.png?raw=true" alt="Picture 3" style={{ transform: "scale(1.1)", marginBottom: "12px"}}></img>
+            <img src={pic3} alt="Picture 3" style={{ transform: "scale(1.1)", marginBottom: "12px"}}></img>
       </div>
       <div className="collage-item">
-            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/4.png?raw=true" alt="Picture 4" style={{ transform: "scale(1.5)", marginTop: "35px"}}></img>
+            <img src={pic4} alt="Picture 4" style={{ transform: "scale(1.5)", marginTop: "35px"}}></img>
       </div>
       <div className="collage-item">
-            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/5.png?raw=true" alt="Picture 5" style={{ transform: "scale(1.1)"}}></img>
+            <img src={pic5} alt="Picture 5" style={{ transform: "scale(1.1)"}}></img>
       </div>
       <div className="collage-item">
-            <img src="https://github.com/Abid-Chowdhury/valentinesxt/blob/3825bab6dea29761736de8cac5dc8b3bf2e2e103/src/Pictures/6.png?raw=true" alt="Picture 6" style={{ transform: "scale(1)" }}></img>
+            <img src={pic6} alt="Picture 6" style={{ transform: "scale(1)" }}></img>
       </div>
     </div>
 

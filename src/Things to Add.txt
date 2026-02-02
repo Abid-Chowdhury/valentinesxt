@@ -18,7 +18,6 @@ Stats page:
 
 Pictures page:
 hovering over a picture slightly enlarges it and adds a subtle shadow
-add the pictures
 clicking on a picture opens it in a larger view or lightbox with a subtitle or date
 
 Questions page:
