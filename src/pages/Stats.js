@@ -10,18 +10,12 @@ export default function Stats() {
 
   return (
     <div style={{ padding: "40px 20px" }} className="stats-page">
-      
-      {/* <a href="/valentinesxt" className="page-backward-link page-link"> &lt; Home</a> */}
-      {/* <a href="/Pictures" className="page-forward-link page-link"> Pictures &gt; </a> */}
       <button className="page-backward-link page-link" onClick={() => navigate("/valentinesxt")}> &lt; Home</button>
       <button className="page-forward-link page-link" onClick={() => navigate("/Pictures")}> Pictures &gt; </button>
-
 
       <div className="subtitle">✨ OUR JOURNEY ✨</div>
 
       <h1 className="page-title">Relationship Stats</h1>
-
-
 
       <div className="stats-grid">
         <div className="stat-card">

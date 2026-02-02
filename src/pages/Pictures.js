@@ -17,8 +17,6 @@ export default function Pictures() {
   return (
     <div style={{ padding: "40px 20px" }} className="pictures-page">
 
-    {/* <a href="/stats" className="page-backward-link page-link"> &lt; Stats</a> */}
-    {/* <a href="/Question" className="page-forward-link page-link"> Question &gt; </a> */}
     <button className="page-backward-link page-link" onClick={() => navigate("/stats")}> &lt; Stats</button>
     <button className="page-forward-link page-link" onClick={() => navigate("/Question")}> Question &gt; </button>
 

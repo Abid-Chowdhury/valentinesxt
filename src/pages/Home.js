@@ -13,10 +13,6 @@ export default function Home() {
   return (   
 
     <div className="center-container">
-
-
-
-      {/* <div className="big-heart">💗</div> */}
       <HeartSvg size={125} color="#F43F5E" beating={true} />
 
       <div className="subtitle">VALENTINE'S DAY 2026</div>

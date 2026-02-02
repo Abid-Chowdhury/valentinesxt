@@ -13,7 +13,6 @@ export default function Success() {
 
   return (
     <div className="success-page">
-      {/* <div className="heart">❤️</div> */}
       <HeartSvg size={150} color="#F43F5E" shake beating />
 
       <h1 className="success-title">Yay! 🎉</h1>

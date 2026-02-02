@@ -11,11 +11,8 @@ export default function Question() {
 
   return (
     <div className="question-page">
-      
-      {/* <a href="/Pictures" className="page-backward-link page-link"> &lt; Pictures</a> */}
       <button className="page-backward-link page-link" onClick={() => navigate("/Pictures")}> &lt; Pictures</button>
       
-      {/* <div className="question-heart">❤️</div> */}
       <HeartSvg size={125} color="#F43F5E" beating={true} />
 
     <div className="subtitle"> ✨ THE BIG QUESTION ✨</div>
