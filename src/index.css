@@ -274,6 +274,14 @@ body {
   width: 100%;
 }
 
+.collage-item:hover {
+  box-shadow: 0 0 30px var(--light-rose);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
 .collage-item img {
   width: 100%;
   height: 100%;
@@ -432,3 +440,5 @@ body {
 .question-btn {
   margin-top: auto;
 }
+
+
