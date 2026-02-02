@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { useState } from "react";
 
 import pic1 from "../Pictures/1.png";
 import pic2 from "../Pictures/2.png";
@@ -10,6 +11,17 @@ import pic6 from "../Pictures/6.png";
 
 export default function Pictures() {
   const navigate = useNavigate();
+  const [activeImage, setActiveImage] = useState(null);
+  
+  const images = [
+    { src: pic1, caption: "Mini Golf ⛳ — Oct 28, 2025" },
+    { src: pic2, caption: "Photo Booth 📸 — Oct 26, 2025" },
+    { src: pic3, caption: "New Shoe 👟 — Oct 24, 2025" },
+    { src: pic4, caption: "Birmingham Bar Night 🍹 — Oct 20, 2025" },
+    { src: pic5, caption: "Walk at the park ⛲ — Oct 16, 2025" },
+    { src: pic6, caption: "Niagara Falls 🌊 — Oct 25, 2025" },
+
+  ];
 
   useEffect(() => {
     document.title = "Pictures 📸";
@@ -31,25 +43,24 @@ export default function Pictures() {
     <div className="pictures-collage-container">
 
     <div className="pictures-collage">
+          {images.map((img, index) => (
+            <div
+              key={index}
+              className={`collage-item ${index === 0 ? "main" : ""}`}
+              onClick={() => setActiveImage(img)}
+            >
+              <img src={img.src} alt={`Picture ${index + 1}`} />
+            </div>
+          ))}
 
-       <div className="collage-item main">
-            <img src={pic1} alt="Picture 1" ></img>
-      </div>
-      <div className="collage-item">
-            <img src={pic2} alt="Picture 2" style={{ transform: "scale(1.25)", marginRight: "25px" }}></img>
-      </div>
-      <div className="collage-item">
-            <img src={pic3} alt="Picture 3" style={{ transform: "scale(1.1)", marginBottom: "12px"}}></img>
-      </div>
-      <div className="collage-item">
-            <img src={pic4} alt="Picture 4" style={{ transform: "scale(1.5)", marginTop: "35px"}}></img>
-      </div>
-      <div className="collage-item">
-            <img src={pic5} alt="Picture 5" style={{ transform: "scale(1.1)"}}></img>
-      </div>
-      <div className="collage-item">
-            <img src={pic6} alt="Picture 6" style={{ transform: "scale(1)" }}></img>
-      </div>
+      {activeImage && (
+        <div className="lightbox" onClick={() => setActiveImage(null)}>
+          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+            <img src={activeImage.src} alt="" />
+            <p className="lightbox-caption">{activeImage.caption}</p>
+          </div>
+        </div>
+      )}
     </div>
 
       <button className="question-btn button" onClick={() => navigate("/Question")}>

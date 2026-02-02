@@ -17,7 +17,6 @@ When page loads, it will show an envelope with a a heart on it > when clicked, t
 Stats page:
 
 Pictures page:
-clicking on a picture opens it in a larger view or lightbox with a subtitle or date
 
 Questions page:
 

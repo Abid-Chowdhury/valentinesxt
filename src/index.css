@@ -441,9 +441,6 @@ body {
 }
 
 
-
-
-/* 
 .lightbox {
   position: fixed;
   inset: 0;
@@ -455,7 +452,8 @@ body {
 }
 
 .lightbox-content {
-  background: white;
+  background: var(--light-rose);
+  box-shadow: 0 0 15px var(--dark-rose);
   padding: 20px;
   border-radius: 16px;
   max-width: 80%;
@@ -487,4 +485,4 @@ body {
     opacity: 1;
     transform: scale(1);
   }
-} */
+} 
