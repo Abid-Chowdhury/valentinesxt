@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+
 import pic1 from "../Pictures/1.png";
 import pic2 from "../Pictures/2.png";
 import pic3 from "../Pictures/3.png";
@@ -30,7 +31,8 @@ export default function Pictures() {
     <div className="pictures-collage-container">
 
     <div className="pictures-collage">
-        <div className="collage-item main">
+
+       <div className="collage-item main">
             <img src={pic1} alt="Picture 1" ></img>
       </div>
       <div className="collage-item">
