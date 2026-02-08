@@ -1,11 +1,12 @@
 After:
 Use tsx
 Make components
+    buttons
+    page indicator
+
 Semantic html
 
 All pages:
-
-animated background
 
 Home page:
 

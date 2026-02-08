@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import FloatingHearts from "./FloatingHearts";
+import FloatingHearts from "../Components/FloatingHearts";
 
 export default function Stats() {
   const navigate = useNavigate();

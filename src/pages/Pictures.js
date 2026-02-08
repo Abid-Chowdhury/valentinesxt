@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useState } from "react";
-import FloatingHearts from "./FloatingHearts";
+import FloatingHearts from "../Components/FloatingHearts";
 
 import pic1 from "../Pictures/1.png";
 import pic2 from "../Pictures/2.png";

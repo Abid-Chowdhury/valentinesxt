@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import FloatingHearts from "./FloatingHearts";
-import HeartSvg from "./HeartSvg";
+import FloatingHearts from "../Components/FloatingHearts";
+import HeartSvg from "../Components/HeartSvg";
 
 export default function Home() {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import HeartSvg from "./HeartSvg";
+import HeartSvg from "../Components/HeartSvg";
 import { useEffect } from "react";
-import FloatingHearts from "./FloatingHearts";
+import FloatingHearts from "../Components/FloatingHearts";
 
 export default function Question() {
   const navigate = useNavigate();
