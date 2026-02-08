@@ -338,7 +338,6 @@ body {
 .yes-btn {
   margin: 0;
   width: 140px;
-
 }
 
 /* White shy button */
@@ -437,10 +436,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.question-btn {
-  margin-top: auto;
 }
 
 

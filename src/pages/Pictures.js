@@ -64,7 +64,7 @@ export default function Pictures() {
       )}
     </div>
 
-      <button className="question-btn button" onClick={() => navigate("/Question")}>
+      <button className="button" onClick={() => navigate("/Question")}>
         Question
       </button>
       </div>

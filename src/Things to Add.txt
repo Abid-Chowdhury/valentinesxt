@@ -1,8 +1,9 @@
 After:
 Use tsx
 Make components
-    buttons
+    main button
     page indicator
+    stat card
 
 Semantic html
 
