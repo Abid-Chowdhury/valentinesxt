@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import FloatingHearts from "../Components/FloatingHearts";
+import MainButton from "../Components/MainButton";
 
 export default function Stats() {
   const navigate = useNavigate();
@@ -85,12 +86,7 @@ export default function Stats() {
         </div>
       </div>
 
-      <button
-        className="button"
-        onClick={() => navigate("/Pictures")}
-      >
-        Pictures
-      </button>
+      <MainButton text="Pictures" onClick={() => navigate("/Pictures")}></MainButton>
     
       <div className="page-indicator">● <span>●</span> ● ● ●</div>
             <FloatingHearts />

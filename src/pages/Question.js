@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import HeartSvg from "../Components/HeartSvg";
 import { useEffect } from "react";
 import FloatingHearts from "../Components/FloatingHearts";
+import MainButton from "../Components/MainButton";
 
 export default function Question() {
   const navigate = useNavigate();
@@ -20,8 +21,8 @@ export default function Question() {
     <div className="question-text">Will you be my</div>
     <div className="valentine-text">Valentine?</div>
     <div className="question-buttons">
-      <button className="button yes-btn" onClick={() => navigate("/Success")}>Yes 💜</button>
-      <button className="no-btn" onClick={() => navigate("/success")}></button>
+        <MainButton text="Yes 💜" onClick={() => navigate("/success")}></MainButton>
+        <MainButton text="no" type="no" onClick={() => navigate("/success")}></MainButton>
     </div>
 
     <div className="quote">

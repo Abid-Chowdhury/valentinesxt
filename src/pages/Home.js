@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import FloatingHearts from "../Components/FloatingHearts";
 import HeartSvg from "../Components/HeartSvg";
-import MainButton from "../Components/MainButton"
+import MainButton from "../Components/MainButton";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -29,14 +29,7 @@ export default function Home() {
         ✨ A Love Story Written In The Stars ✨
       </div>
 
-      <button
-        className="button"
-        onClick={() => navigate("/stats")}
-      >
-        Explore Our Story {'>'}
-      </button>
-
-      <MainButton text="Explore Our Story >"></MainButton>
+      <MainButton text="Explore Our Story >" onClick={() => navigate("/stats")}></MainButton>
 
       <div className="page-indicator"><span>●</span> ● ● ● ●</div>
 

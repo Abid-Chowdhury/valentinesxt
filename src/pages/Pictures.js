@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useState } from "react";
 import FloatingHearts from "../Components/FloatingHearts";
+import MainButton from "../Components/MainButton";
 
 import pic1 from "../Pictures/1.png";
 import pic2 from "../Pictures/2.png";
@@ -64,9 +65,8 @@ export default function Pictures() {
       )}
     </div>
 
-      <button className="button" onClick={() => navigate("/Question")}>
-        Question
-      </button>
+      <MainButton text="Question" onClick={() => navigate("/Question")}></MainButton>
+
       </div>
       
       <div className="page-indicator">● ● <span>●</span> ● ●</div>
